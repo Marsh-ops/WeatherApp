@@ -38,18 +38,24 @@
     }
   
     .details {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+        padding: 0;
     }
   
     .col {
-      justify-content: center;
-      text-align: center;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: 10px;
+        min-width: 140px;
     }
   
     .col img {
-      margin-bottom: 0;
+        margin: 0;
+        width: 35px;
     }
   }
