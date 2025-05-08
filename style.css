@@ -94,7 +94,7 @@ body{
     display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 481px) {
     .card {
       width: 95%;
       padding: 20px 15px;
