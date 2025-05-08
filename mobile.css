@@ -6,22 +6,25 @@
     }
   
     .search {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 10px;
+        flex-direction: column;
+        align-items: center; /* Center child elements */
+        gap: 10px;
     }
   
     .search input {
-      width: 100%;
-      margin-right: 0;
-      height: 50px;
-      font-size: 16px;
+        width: 100%;
+        margin-right: 0;
+        height: 50px;
+        font-size: 16px;
     }
   
     .search button {
-      width: 100%;
-      height: 50px;
-      border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   
     .weather-icon {
@@ -38,12 +41,9 @@
     }
   
     .details {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 30px;
-        padding: 0;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
   
     .col {
@@ -56,6 +56,6 @@
   
     .col img {
         margin: 0;
-        width: 35px;
+        width: 40px;
     }
   }
